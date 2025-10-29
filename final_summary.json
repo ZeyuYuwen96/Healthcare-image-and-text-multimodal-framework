@@ -1,0 +1,82 @@
+{
+  "best_epoch": 34,
+  "val_macro_auc": 0.957269105286953,
+  "val_macro_ap": 0.8356697911738612,
+  "test_macro_auc": 0.9309303625249944,
+  "test_macro_ap": 0.721083341265156,
+  "temperature": 0.40507978200912476,
+  "class_metrics_val": [
+    {
+      "class": "Atelectasis",
+      "val_AUC": 0.9653651414903861,
+      "val_AP": 0.9050301629881319,
+      "val_base_rate": 0.10918544194107452,
+      "val_threshold": 0.6403726935386658
+    },
+    {
+      "class": "Cardiomegaly",
+      "val_AUC": 0.9934633632050606,
+      "val_AP": 0.9435014458732545,
+      "val_base_rate": 0.060658578856152515,
+      "val_threshold": 0.4638286828994751
+    },
+    {
+      "class": "Consolidation",
+      "val_AUC": 0.9414818548387097,
+      "val_AP": 0.8354954078689819,
+      "val_base_rate": 0.1386481802426343,
+      "val_threshold": 0.6178414821624756
+    },
+    {
+      "class": "Edema",
+      "val_AUC": 0.9619359968197176,
+      "val_AP": 0.6970601496245321,
+      "val_base_rate": 0.03119584055459272,
+      "val_threshold": 0.8091835975646973
+    },
+    {
+      "class": "Pleural_Effusion",
+      "val_AUC": 0.9240991700808909,
+      "val_AP": 0.7972617895144056,
+      "val_base_rate": 0.1317157712305026,
+      "val_threshold": 0.5648108720779419
+    }
+  ],
+  "class_metrics_test": [
+    {
+      "class": "Atelectasis",
+      "test_AUC": 0.9340239912758996,
+      "test_AP": 0.826970251162282,
+      "test_base_rate": 0.0846286701208981,
+      "used_threshold": 0.6403726935386658
+    },
+    {
+      "class": "Cardiomegaly",
+      "test_AUC": 0.9604069013663109,
+      "test_AP": 0.7532581548293539,
+      "test_base_rate": 0.06390328151986183,
+      "used_threshold": 0.4638286828994751
+    },
+    {
+      "class": "Consolidation",
+      "test_AUC": 0.8873414071510958,
+      "test_AP": 0.7274578069005085,
+      "test_base_rate": 0.11744386873920552,
+      "used_threshold": 0.6178414821624756
+    },
+    {
+      "class": "Edema",
+      "test_AUC": 0.9500000000000001,
+      "test_AP": 0.5083168714180208,
+      "test_base_rate": 0.025906735751295335,
+      "used_threshold": 0.8091835975646973
+    },
+    {
+      "class": "Pleural_Effusion",
+      "test_AUC": 0.9228795128316659,
+      "test_AP": 0.7894136220156153,
+      "test_base_rate": 0.16407599309153714,
+      "used_threshold": 0.5648108720779419
+    }
+  ]
+}
